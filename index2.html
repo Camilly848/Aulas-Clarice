@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="aula2.js"></script>
+    <style>
+        body {
+            background-color: rgb(97, 250, 115);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Qual o Seu Time? </h2>
+
+    <p>Opções</p>
+
+    1 - Sport <br>
+    2 - Santa Cruz <br>
+    3 - Náutico <br>
+
+    Digite o Código do Time
+    <input type="number" id="time">
+
+    <button onclick="verificarTime()">mensagem time</button>
+    <button onclick="limpar()">Limpar</button>
+
+    <h3 id="resultado_time">O Resultado Aqui</h3>
+    <input type="text" id="resultado1">
+
+    <h2>Pedido da Lanchonete</h2>
+
+    <p>Menu</p>
+
+    1 - Hambúrguer <br>
+    2 - Pizza <br>
+    3 - Refrigerante <br>
+
+    Digite o Código do Pedido
+    <input type="number" id="produto">
+
+    <button onclick="verificarPedido()">Ver Pedido</button>
+    <button onclick="limpar2()">Limpar</button>
+
+    <h3 id="resultado_pedido">Resultado Aqui</h3>
+    <input type="text" id="resultado2">
+
+    <h2>Sistemas de Compras</h2>
+
+    <p>Menu</p>
+
+    1 - Hambúrguer <br>
+    2 - Pizza <br>
+    3 - Refrigerante <br>
+
+    Código do Produto:
+    <input type="number" id="produto_compra"> <br>
+
+    Quantidade:
+    <input type="number" id="quantidade">
+
+    <button onclick="calcular()">calcular</button>
+    <button onclick="limpar3()">Limpar</button>
+
+    <h3 id="rCompra">Resultado Aqui</h3>
+
+    <h2>Sistema de Banco</h2>
+
+    <p>Opções</p>
+
+    1 - Saldo <br> <br>
+    <input type="number" id="saldo" disabled> <button onclick="saldo()">Ver Saldo</button> <br> <br>
+
+    2 - Déposito <br> <br>
+    <input type="number" id="deposito"> <button onclick="depositar()">Depositar</button> <br> <br>
+
+    3 - Saque <br> <br>
+    <input type="number" id="saque"> <button onclick="saque()">Sacar</button>
+
+    <h2>Saldo</h2>
+
+<input type="number" id="saldo" disabled> <button onclick="vSaldo()">Ver Saldo</button>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
